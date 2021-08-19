@@ -1,0 +1,44 @@
+body {
+    padding: 1% 10%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+div {
+    padding-top: 20px;
+}
+
+h3 {
+    margin-top: 32px;
+}
+
+#font1 {font-weight: lighter;}
+#font2 {font-weight: normal;}
+#font3 {font-weight: bolder}
+#font4 {font-style: italic; font-weight: normal;}
+#font5 {font-weight: normal; text-decoration: underline;}
+
+#border1 {font-weight: normal; border-style: dashed;}
+#border2 {font-weight: normal; border-style: dotted;}
+#border3 {font-weight: normal; border-style: solid;}
+#border4 {font-weight: normal; border-style:double;}
+#border5 {font-weight: normal; border: solid 10px; margin-top: 10px;}
+#border6 {font-weight: normal; border: solid 20px; margin-top: 10px;}
+#border7 {font-weight: normal; border: solid 30px; margin-top: 10px;}
+
+#align1 {font-weight: normal; text-align: left;}
+#align2 {font-weight: normal; text-align: right;}
+#align3 {font-weight: normal;text-align: center;}
+
+.display-div p {background-color: red; padding: 10px;}
+.block-p {display: block;}
+.inline-p {display: inline;}
+.inline-block-p {display: inline-block; width: 512px;}
+
+#float-img {float: left;}
+#clear-p {clear: left;}
+
+#static-img {position: static;}
+#relative-img {position: relative; left: 128px;}
+#absolute-img {position: absolute; right: 300px;}
+#fixed-img {position: fixed; bottom: 0; right: 0;}
